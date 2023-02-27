@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SASS 2 </title>
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- <script src="https://kit.fontawesome.com/8d17abfbca.js" crossorigin="anonymous"></script> -->
+</head>
+<body class="container">
+    <nav>
+        <div class="logo-container">
+          <img src="Glovo.svg">
+        </div>
+
+        <div class="nav-content">
+            <ul>
+                <li><a href=""> HOME </a></li>
+                <li><a href="#about"> ABOUT </a></li>
+                <li><a href="#services"> SERVICES </a></li>
+                <li><a href="#contact me"> CONTACT ME </a></li>
+            </ul>
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="Search">
+        </div>
+
+        <div class="hamburger">
+            <i class="fa-sharp fa-solid fa-burger"></i>
+        </div>
+    </nav>
+
+    <main>
+        <div class="left">
+            <img src="https://i.pinimg.com/236x/5d/c5/58/5dc558411498c5bc7a15c327e930dcdc.jpg">
+        </div>
+
+        <div class="right">
+            <h1> <span>Hello</span>, I'm Harley, a.k.a Boss Bitch</h1>
+        </div>
+    </main>
+
+   
+    <section>
+        <a name="about"></a>
+        <h2> About Me </h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aperiam vel obcaecati doloremque possimus quo cum, cumque aliquam cupiditate quae blanditiis vitae eaque, voluptate sint consequatur? Nulla voluptatem ratione illum ipsum animi, aut debitis et, iure, culpa temporibus adipisci repellat obcaecati quia sit quaerat possimus molestiae? Vitae eum nostrum soluta maxime dolore vel, nesciunt iusto quasi aliquam suscipit velit autem libero illum vero deserunt maiores similique sit! Aliquam hic dicta tempora aperiam velit, porro quam impedit. Delectus voluptates odit dicta voluptas fugit quas. Repellendus eos minima quasi dolorum illo neque quibusdam impedit aut accusamus eaque tempora sequi, repellat sunt aspernatur optio culpa mollitia iusto itaque! Et aperiam ab omnis vero? Amet porro deserunt eveniet voluptas odio expedita praesentium inventore. Incidunt itaque fugiat magnam! Nobis esse ipsa error consequuntur mollitia sequi ullam quidem iure in rerum deleniti accusamus iusto, quo eum totam fugiat nihil molestias. Aspernatur, non. Ipsum labore, eos, neque in quo eum voluptates fuga repellat inventore cum rem at. Sed autem pariatur error ab? Autem fugiat qui obcaecati, soluta mollitia unde quibusdam esse commodi expedita repellat doloribus, eveniet aut nam excepturi. Officia dolores porro, odio suscipit architecto ipsam. Eius repellendus perspiciatis illo perferendis magnam a atque earum dolores quo? </p>
+    </section>
+    
+    <article>
+        <a name="services"></a>
+        <div class="p">
+        <h2> Services </h2>
+        <p> These are the list of my services </p>
+        </div>
+
+        <div class="flex">
+        <div class="card">
+            <h4> Frontend Development </h4>
+            <i class="fa-solid fa-computer"></i>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni esse eveniet est, eligendi, animi nostrum, impedit corporis at assumenda illum ut voluptas voluptates quae nemo repellendus aliquid provident itaque! Accusantium quisquam dignissimos id nisi facere consectetur quo molestias error voluptas unde rem, suscipit, ea ex corrupti blanditiis placeat laborum omnis? </p>
+        </div>
+
+        <div class="card">
+            <h4> Backend Development </h4>
+            <i class="fa-solid fa-database"></i>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni esse eveniet est, eligendi, animi nostrum, impedit corporis at assumenda illum ut voluptas voluptates quae nemo repellendus aliquid provident itaque! Accusantium quisquam dignissimos id nisi facere consectetur quo molestias error voluptas unde rem, suscipit, ea ex corrupti blanditiis placeat laborum omnis? </p>
+        </div>
+
+        <div class="card">
+            <h4> Data Analytics </h4>
+            <i class="fa-solid fa-line-chart"></i>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni esse eveniet est, eligendi, animi nostrum, impedit corporis at assumenda illum ut voluptas voluptates quae nemo repellendus aliquid provident itaque! Accusantium quisquam dignissimos id nisi facere consectetur quo molestias error voluptas unde rem, suscipit, ea ex corrupti blanditiis placeat laborum omnis? </p>
+        </div>
+        </div>
+    </article>
+
+    <section class="contact">
+        <div class="left">
+            <a name="contact me"></a>
+            <h2> Contact Me </h2>
+            <form>
+                <label > Name </label>
+                <input type="text" placeholder="Enter Your name" class="input"><br><br>
+                <label> Phone </label>
+                <input type="number" placeholder="Enter Your Phone Number" class="input"><br>
+                <textarea rows="10" cols="30" style="margin: 20px"></textarea><br>
+                <input type="checkbox" >
+                <label for="checkbox"> Subscribe to our newsletter </label><br>
+                <button> Submit </button>
+            </form>
+        </div>
+
+        <div class="right">
+            <h1> Thanks for subscribing to my Harley's world </h1>
+        </div>
+    </section>
+
+    <footer>
+        <p> Copyright &copy; 2023, Julianah Babatunde </p>
+    </footer>
+</body>
+</html>
